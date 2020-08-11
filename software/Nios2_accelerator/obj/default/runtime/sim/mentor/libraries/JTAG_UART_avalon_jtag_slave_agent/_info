@@ -1,0 +1,58 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/juanp/Desktop/Arqui2/Proyecto3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+valtera_merlin_burst_uncompressor
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1596969958
+!i10b 1
+!s100 f1?Rb<=9U?R9LJoHl;7>T3
+IaNEHe]cHAfUgYC5:<7lzH2
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+!s105 altera_merlin_burst_uncompressor_sv_unit
+S1
+Z2 dC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+Z3 w1596959914
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv
+L0 40
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1596969958.000000
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv|-L|altera_common_sv_packages|-work|JTAG_UART_avalon_jtag_slave_agent|
+!i113 1
+Z5 o-sv -L altera_common_sv_packages -work JTAG_UART_avalon_jtag_slave_agent
+Z6 tCvgOpt 0
+valtera_merlin_slave_agent
+R0
+!s110 1596969957
+!i10b 1
+!s100 ePZN1d?B062J`OBb?blff3
+I4zgeE;<JXlbbEA@ecnSNP3
+R1
+!s105 altera_merlin_slave_agent_sv_unit
+S1
+R2
+R3
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv
+L0 34
+R4
+r1
+!s85 0
+31
+!s108 1596969957.000000
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv|-L|altera_common_sv_packages|-work|JTAG_UART_avalon_jtag_slave_agent|
+!i113 1
+R5
+R6

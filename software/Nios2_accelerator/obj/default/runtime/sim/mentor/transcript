@@ -1,0 +1,1180 @@
+# Reading C:/intelFPGA_lite/18.0/modelsim_ase/tcl/vsim/pref.tcl
+# do load_sim.tcl
+# obj/default/runtime/sim
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+#  ld
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:55 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 04:45:56 on Aug 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:56 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 04:45:56 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:56 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_avalon_st_adapter
+# End time: 04:45:56 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:56 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_rsp_mux
+# End time: 04:45:56 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:56 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 04:45:56 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:56 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_rsp_demux
+# End time: 04:45:56 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:56 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_cmd_mux
+# End time: 04:45:56 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:56 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 04:45:57 on Aug 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:57 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_cmd_demux
+# End time: 04:45:57 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:57 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_router_002_default_decode
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_router_002
+# End time: 04:45:57 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:57 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_router_default_decode
+# -- Compiling module Nios2_accelerator_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0_router
+# End time: 04:45:57 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:57 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_avalon_sc_fifo.v -work JTAG_UART_avalon_jtag_slave_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 04:45:57 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:57 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work JTAG_UART_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 04:45:57 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:58 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work JTAG_UART_avalon_jtag_slave_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 04:45:58 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:58 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work NIOS_II_data_master_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 04:45:58 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:58 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work JTAG_UART_avalon_jtag_slave_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 04:45:58 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:58 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work NIOS_II_data_master_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 04:45:58 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:58 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v -work cpu 
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_register_bank_a_module
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_register_bank_b_module
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_debug
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_break
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_xbrk
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_dbrk
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_itrace
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_td_mode
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_dtrace
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_fifo
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_pib
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci_im
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_performance_monitors
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_avalon_reg
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_ociram_sp_ram_module
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_ocimem
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_nios2_oci
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II_cpu_nios2_performance_monitors
+# 	Nios2_accelerator_NIOS_II_cpu
+# End time: 04:45:58 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:59 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk.v -work cpu 
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk
+# End time: 04:45:59 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:59 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_tck.v -work cpu 
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II_cpu_debug_slave_tck
+# End time: 04:45:59 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:59 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper.v -work cpu 
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper
+# End time: 04:45:59 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:59 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_test_bench.v -work cpu 
+# -- Compiling module Nios2_accelerator_NIOS_II_cpu_test_bench
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II_cpu_test_bench
+# End time: 04:45:59 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:45:59 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_multi.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_SIGNED
+# -- Compiling entity fpoint2_multi
+# -- Compiling architecture fpmulti of fpoint2_multi
+# End time: 04:46:00 on Aug 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:00 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_multi_datapath.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity fpoint2_multi_datapath
+# -- Compiling architecture fp_data_path of fpoint2_multi_datapath
+# End time: 04:46:00 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:00 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_multi_dspba_library_package.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package fpoint2_multi_dspba_library_package
+# End time: 04:46:01 on Aug 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:01 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_multi_dspba_library.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package fpoint2_multi_dspba_library_package
+# -- Compiling entity fpoint2_multi_dspba_delay
+# -- Compiling architecture delay of fpoint2_multi_dspba_delay
+# End time: 04:46:01 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:01 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPAddSub/FPAddSub.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package fpoint2_multi_dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity FPAddSub
+# -- Compiling architecture normal of FPAddSub
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPAddSub/FPAddSub.vhd(1590): (vcom-1445) Duplicate signal "fracPostNorm_farPath11_uid97_fpAddSubTest_ieeeAdd_b" found in sensitivity list.
+# End time: 04:46:01 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:01 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPDiv/FPDiv.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FPDiv
+# -- Compiling architecture beh of FPDiv
+# End time: 04:46:01 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:01 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPMult/FPMult.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package fpoint2_multi_dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity FPMult
+# -- Compiling architecture normal of FPMult
+# End time: 04:46:01 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:02 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/IntToFloat/IntToFloat.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package fpoint2_multi_dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity IntToFloat
+# -- Compiling architecture normal of IntToFloat
+# End time: 04:46:02 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:02 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FloatToInt/FloatToInt.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity FloatToInt
+# -- Compiling architecture normal of FloatToInt
+# End time: 04:46:02 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:02 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPSqrt/FPSqrt_safe_path.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling package FPSqrt_safe_path
+# -- Compiling package body FPSqrt_safe_path
+# -- Loading package FPSqrt_safe_path
+# End time: 04:46:02 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:02 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPSqrt/FPSqrt.vhd -work fpci_multi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package fpoint2_multi_dspba_library_package
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Loading package FPSqrt_safe_path
+# -- Compiling entity FPSqrt
+# -- Compiling architecture normal of FPSqrt
+# End time: 04:46:02 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:02 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_combi.vhd -work fpci_combi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Compiling entity fpoint2_combi
+# -- Compiling architecture fpcombi of fpoint2_combi
+# End time: 04:46:03 on Aug 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:03 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPMinMaxFused/FPMinMaxFused.vhd -work fpci_combi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity FPMinMaxFused
+# -- Compiling architecture normal of FPMinMaxFused
+# ** Warning: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPMinMaxFused/FPMinMaxFused.vhd(364): (vcom-1445) Duplicate signal "join_uid68_fpMinMaxFusedTest_q" found in sensitivity list.
+# End time: 04:46:03 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:03 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPCompareFused/FPCompareFused.vhd -work fpci_combi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity FPCompareFused
+# -- Compiling architecture normal of FPCompareFused
+# End time: 04:46:03 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:03 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPNeg.vhd -work fpci_combi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity FPNeg
+# -- Compiling architecture normal of FPNeg
+# End time: 04:46:03 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:03 on Aug 09,2020
+# vcom -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPAbs.vhd -work fpci_combi 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package MATH_REAL
+# -- Loading package altera_mf_components
+# -- Loading package LPM_COMPONENTS
+# -- Compiling entity FPAbs
+# -- Compiling architecture normal of FPAbs
+# End time: 04:46:03 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:03 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 04:46:04 on Aug 09,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:04 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 04:46:04 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:04 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
+# -- Compiling module Nios2_accelerator_irq_mapper
+# 
+# Top level modules:
+# 	Nios2_accelerator_irq_mapper
+# End time: 04:46:04 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:04 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module Nios2_accelerator_mm_interconnect_0
+# 
+# Top level modules:
+# 	Nios2_accelerator_mm_interconnect_0
+# End time: 04:46:04 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:04 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_custom_instruction_master_multi_xconnect.sv -L altera_common_sv_packages -work NIOS_II_custom_instruction_master_multi_xconnect 
+# -- Compiling module Nios2_accelerator_NIOS_II_custom_instruction_master_multi_xconnect
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II_custom_instruction_master_multi_xconnect
+# End time: 04:46:04 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:04 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_customins_slave_translator.sv -L altera_common_sv_packages -work NIOS_II_custom_instruction_master_comb_slave_translator0 
+# -- Compiling module altera_customins_slave_translator
+# 
+# Top level modules:
+# 	altera_customins_slave_translator
+# End time: 04:46:04 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:05 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_custom_instruction_master_comb_xconnect.sv -L altera_common_sv_packages -work NIOS_II_custom_instruction_master_comb_xconnect 
+# -- Compiling module Nios2_accelerator_NIOS_II_custom_instruction_master_comb_xconnect
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II_custom_instruction_master_comb_xconnect
+# End time: 04:46:05 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:05 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_customins_master_translator.v -work NIOS_II_custom_instruction_master_translator 
+# -- Compiling module altera_customins_master_translator
+# 
+# Top level modules:
+# 	altera_customins_master_translator
+# End time: 04:46:05 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:05 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v -work RAM 
+# -- Compiling module Nios2_accelerator_RAM
+# 
+# Top level modules:
+# 	Nios2_accelerator_RAM
+# End time: 04:46:05 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:05 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_PERFORMANCE_COUNTER.v -work PERFORMANCE_COUNTER 
+# -- Compiling module Nios2_accelerator_PERFORMANCE_COUNTER
+# 
+# Top level modules:
+# 	Nios2_accelerator_PERFORMANCE_COUNTER
+# End time: 04:46:05 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:05 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II.v -work NIOS_II 
+# -- Compiling module Nios2_accelerator_NIOS_II
+# 
+# Top level modules:
+# 	Nios2_accelerator_NIOS_II
+# End time: 04:46:05 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:05 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_JTAG_UART.v -work JTAG_UART 
+# -- Compiling module Nios2_accelerator_JTAG_UART_sim_scfifo_w
+# -- Compiling module Nios2_accelerator_JTAG_UART_scfifo_w
+# -- Compiling module Nios2_accelerator_JTAG_UART_sim_scfifo_r
+# -- Compiling module Nios2_accelerator_JTAG_UART_scfifo_r
+# -- Compiling module Nios2_accelerator_JTAG_UART
+# 
+# Top level modules:
+# 	Nios2_accelerator_JTAG_UART
+# End time: 04:46:05 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:06 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_FPU.v -work FPU 
+# -- Compiling module Nios2_accelerator_FPU
+# 
+# Top level modules:
+# 	Nios2_accelerator_FPU
+# End time: 04:46:06 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:06 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work Nios2_accelerator_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 04:46:06 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:06 on Aug 09,2020
+# vlog -reportprogress 300 -sv C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work Nios2_accelerator_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 04:46:06 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:06 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator.v -work Nios2_accelerator_inst 
+# -- Compiling module Nios2_accelerator
+# 
+# Top level modules:
+# 	Nios2_accelerator
+# End time: 04:46:06 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:46:06 on Aug 09,2020
+# vlog -reportprogress 300 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/Nios2_accelerator_tb.v 
+# -- Compiling module Nios2_accelerator_tb
+# 
+# Top level modules:
+# 	Nios2_accelerator_tb
+# End time: 04:46:06 on Aug 09,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter -L rsp_mux -L rsp_demux -L cmd_mux -L cmd_demux -L router_002 -L router -L JTAG_UART_avalon_jtag_slave_agent_rsp_fifo -L JTAG_UART_avalon_jtag_slave_agent -L NIOS_II_data_master_agent -L JTAG_UART_avalon_jtag_slave_translator -L NIOS_II_data_master_translator -L cpu -L fpci_multi -L fpci_combi -L rst_controller -L irq_mapper -L mm_interconnect_0 -L NIOS_II_custom_instruction_master_multi_xconnect -L NIOS_II_custom_instruction_master_comb_slave_translator0 -L NIOS_II_custom_instruction_master_comb_xconnect -L NIOS_II_custom_instruction_master_translator -L RAM -L PERFORMANCE_COUNTER -L NIOS_II -L JTAG_UART -L FPU -L Nios2_accelerator_inst_reset_bfm -L Nios2_accelerator_inst_clk_bfm -L Nios2_accelerator_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev Nios2_accelerator_tb 
+# Start time: 04:46:07 on Aug 09,2020
+# Loading work.Nios2_accelerator_tb
+# Loading Nios2_accelerator_inst.Nios2_accelerator
+# Loading FPU.Nios2_accelerator_FPU
+# Loading JTAG_UART.Nios2_accelerator_JTAG_UART
+# Loading JTAG_UART.Nios2_accelerator_JTAG_UART_scfifo_w
+# Loading JTAG_UART.Nios2_accelerator_JTAG_UART_sim_scfifo_w
+# Loading JTAG_UART.Nios2_accelerator_JTAG_UART_scfifo_r
+# Loading JTAG_UART.Nios2_accelerator_JTAG_UART_sim_scfifo_r
+# Loading NIOS_II.Nios2_accelerator_NIOS_II
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_test_bench
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_register_bank_a_module
+# Loading altera_mf_ver.altsyncram
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_register_bank_b_module
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_break
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_xbrk
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_dbrk
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_itrace
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_dtrace
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_td_mode
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_fifo
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_pib
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_oci_im
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_avalon_reg
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_nios2_ocimem
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_ociram_sp_ram_module
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_debug_slave_tck
+# Loading cpu.Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk
+# Loading PERFORMANCE_COUNTER.Nios2_accelerator_PERFORMANCE_COUNTER
+# Loading RAM.Nios2_accelerator_RAM
+# Loading NIOS_II_custom_instruction_master_translator.altera_customins_master_translator
+# Loading sv_std.std
+# Loading NIOS_II_custom_instruction_master_comb_xconnect.Nios2_accelerator_NIOS_II_custom_instruction_master_comb_xconnect
+# Loading NIOS_II_custom_instruction_master_comb_slave_translator0.altera_customins_slave_translator
+# Loading NIOS_II_custom_instruction_master_multi_xconnect.Nios2_accelerator_NIOS_II_custom_instruction_master_multi_xconnect
+# Loading mm_interconnect_0.Nios2_accelerator_mm_interconnect_0
+# Loading NIOS_II_data_master_translator.altera_merlin_master_translator
+# Loading JTAG_UART_avalon_jtag_slave_translator.altera_merlin_slave_translator
+# Loading NIOS_II_data_master_agent.altera_merlin_master_agent
+# Loading JTAG_UART_avalon_jtag_slave_agent.altera_merlin_slave_agent
+# Loading JTAG_UART_avalon_jtag_slave_agent.altera_merlin_burst_uncompressor
+# Loading JTAG_UART_avalon_jtag_slave_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.Nios2_accelerator_mm_interconnect_0_router
+# Loading router.Nios2_accelerator_mm_interconnect_0_router_default_decode
+# Loading router_002.Nios2_accelerator_mm_interconnect_0_router_002
+# Loading router_002.Nios2_accelerator_mm_interconnect_0_router_002_default_decode
+# Loading cmd_demux.Nios2_accelerator_mm_interconnect_0_cmd_demux
+# Loading cmd_mux.Nios2_accelerator_mm_interconnect_0_cmd_mux
+# Loading cmd_mux.altera_merlin_arbitrator
+# Loading cmd_mux.altera_merlin_arb_adder
+# Loading rsp_demux.Nios2_accelerator_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.Nios2_accelerator_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading avalon_st_adapter.Nios2_accelerator_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.Nios2_accelerator_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading irq_mapper.Nios2_accelerator_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading Nios2_accelerator_inst_clk_bfm.altera_avalon_clock_source
+# Loading Nios2_accelerator_inst_reset_bfm.altera_avalon_reset_source
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading fpci_combi.fpoint2_combi(fpcombi)
+# Loading altera_mf.altera_mf_components
+# Loading lpm.lpm_components
+# Loading fpci_combi.fpneg(normal)
+# Loading fpci_combi.fpabs(normal)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading fpci_multi.fpoint2_multi(fpmulti)
+# Loading fpci_multi.fpoint2_multi_datapath(fp_data_path)
+# Loading fpci_multi.fpdiv(beh)
+# Loading fpci_multi.fpoint2_multi_dspba_library_package
+# Loading fpci_multi.fpmult(normal)
+# Loading fpci_multi.fpoint2_multi_dspba_delay(delay)
+# Loading lpm.lpm_hint_evaluation(body)
+# Loading lpm.lpm_mult(lpm_syn)
+# Loading fpci_multi.fpaddsub(normal)
+# Loading fpci_multi.inttofloat(normal)
+# Loading fpci_multi.floattoint(normal)
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator.v(168): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/jtag_uart File: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_JTAG_UART.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator.v(168): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator.v(168): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II.v(55): [TFMPC] - Too few port connections. Expected 44, found 43.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu File: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II.v(55): [TFMPC] - Missing connection for port 'W_ci_status'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/Nios2_accelerator_NIOS_II_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/Nios2_accelerator_NIOS_II_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/the_Nios2_accelerator_NIOS_II_cpu_nios2_oci/the_Nios2_accelerator_NIOS_II_cpu_nios2_oci_itrace File: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/the_Nios2_accelerator_NIOS_II_cpu_nios2_oci/the_Nios2_accelerator_NIOS_II_cpu_nios2_ocimem/Nios2_accelerator_NIOS_II_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: Design size of 19095 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+#  
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: Nios2_accelerator_tb.nios2_accelerator_inst.nios_ii.cpu.the_Nios2_accelerator_NIOS_II_cpu_nios2_oci.the_Nios2_accelerator_NIOS_II_cpu_nios2_ocimem.Nios2_accelerator_NIOS_II_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: Nios2_accelerator_tb.nios2_accelerator_inst.ram.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: -   $Date: 2018/01/31 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   $Date: 2018/01/31 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.reset_assert: Reset asserted
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+#               990000: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.reset_deassert: Reset deasserted
+restart -f
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator.v(168): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/jtag_uart File: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_JTAG_UART.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator.v(168): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator.v(168): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II.v(55): [TFMPC] - Too few port connections. Expected 44, found 43.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu File: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II.v(55): [TFMPC] - Missing connection for port 'W_ci_status'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/Nios2_accelerator_NIOS_II_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/Nios2_accelerator_NIOS_II_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/the_Nios2_accelerator_NIOS_II_cpu_nios2_oci/the_Nios2_accelerator_NIOS_II_cpu_nios2_oci_itrace File: C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/nios_ii/cpu/the_Nios2_accelerator_NIOS_II_cpu_nios2_oci/the_Nios2_accelerator_NIOS_II_cpu_nios2_ocimem/Nios2_accelerator_NIOS_II_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.0std/614/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_RAM.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+run -all
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 0  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: Nios2_accelerator_tb.nios2_accelerator_inst.nios_ii.cpu.the_Nios2_accelerator_NIOS_II_cpu_nios2_oci.the_Nios2_accelerator_NIOS_II_cpu_nios2_ocimem.Nios2_accelerator_NIOS_II_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: Nios2_accelerator_tb.nios2_accelerator_inst.ram.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: -   $Date: 2018/01/31 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   $Date: 2018/01/31 $
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.reset_assert: Reset asserted
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 6  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ps  Iteration: 7  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 1  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm1_uid102_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/sm0_uid99_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 10 ns  Iteration: 23  Instance: /Nios2_accelerator_tb/nios2_accelerator_inst/fpu/fpci_multi/datapath/ARITH_GEN/multiply/topProd_uid96_prod_uid49_fpMulTest_component
+#               990000: INFO: Nios2_accelerator_tb.nios2_accelerator_inst_reset_bfm.reset_deassert: Reset deasserted
+# Executing...
+run -all
+# End time: 05:40:44 on Aug 09,2020, Elapsed time: 0:54:37
+# Errors: 0, Warnings: 266

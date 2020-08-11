@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/juanp/Desktop/Arqui2/Proyecto3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+vNios2_accelerator_JTAG_UART
+Z0 !s110 1596969965
+!i10b 1
+!s100 Zm[Vi4^1LG>Nao_56031`3
+IllP^b]Vn`a`L4RK09fEQ^0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+Z3 w1596959906
+Z4 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_JTAG_UART.v
+Z5 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_JTAG_UART.v
+L0 331
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1596969965.000000
+Z8 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_JTAG_UART.v|
+Z9 !s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_JTAG_UART.v|-work|JTAG_UART|
+!i113 1
+Z10 o-work JTAG_UART
+Z11 tCvgOpt 0
+n@nios2_accelerator_@j@t@a@g_@u@a@r@t
+vNios2_accelerator_JTAG_UART_scfifo_r
+R0
+!i10b 1
+!s100 ifn<I0=D;2hD:Nl;]NePM2
+Il9E9GW=i:G=Zh03Kf@Gkk1
+R1
+R2
+R3
+R4
+R5
+L0 243
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@j@t@a@g_@u@a@r@t_scfifo_r
+vNios2_accelerator_JTAG_UART_scfifo_w
+R0
+!i10b 1
+!s100 `hY2@k66];Pk1kzkzB5CZ3
+I:X<>dGd??5F`4WSQkHId21
+R1
+R2
+R3
+R4
+R5
+L0 78
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@j@t@a@g_@u@a@r@t_scfifo_w
+vNios2_accelerator_JTAG_UART_sim_scfifo_r
+R0
+!i10b 1
+!s100 HAd?jA^9FG:6Yi1VTO[G`2
+I=B`I@zAIVh;>o_YD=J;=a3
+R1
+R2
+R3
+R4
+R5
+L0 164
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@j@t@a@g_@u@a@r@t_sim_scfifo_r
+vNios2_accelerator_JTAG_UART_sim_scfifo_w
+R0
+!i10b 1
+!s100 zJjjBZ]AK4UYe7=29^4Ti0
+IENfHFAAPQ[E2:C=dbYck:3
+R1
+R2
+R3
+R4
+R5
+L0 21
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@j@t@a@g_@u@a@r@t_sim_scfifo_w

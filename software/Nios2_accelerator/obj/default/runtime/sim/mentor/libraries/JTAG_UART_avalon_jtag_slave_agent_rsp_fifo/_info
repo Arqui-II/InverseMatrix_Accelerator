@@ -1,0 +1,31 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/juanp/Desktop/Arqui2/Proyecto3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+valtera_avalon_sc_fifo
+!s110 1596969957
+!i10b 1
+!s100 4mK@em][G=j]om3zJIhOc0
+I^Im?[@o703CXNhZIMHgaf3
+VDg1SIo80bB@j0V0VzS_@n1
+dC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+w1596959914
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_avalon_sc_fifo.v
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_avalon_sc_fifo.v
+L0 21
+OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1596969957.000000
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_avalon_sc_fifo.v|-work|JTAG_UART_avalon_jtag_slave_agent_rsp_fifo|
+!i113 1
+o-work JTAG_UART_avalon_jtag_slave_agent_rsp_fifo
+tCvgOpt 0

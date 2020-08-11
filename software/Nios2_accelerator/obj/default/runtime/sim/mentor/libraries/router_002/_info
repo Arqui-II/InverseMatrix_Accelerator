@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/juanp/Desktop/Arqui2/Proyecto3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+vNios2_accelerator_mm_interconnect_0_router_002
+Z0 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z1 !s110 1596969957
+!i10b 1
+!s100 lR:Pom^NkAUc9nZjlV^DN0
+IEAiYXj`=P6SR;O9MzP5S:2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 Nios2_accelerator_mm_interconnect_0_router_002_sv_unit
+S1
+Z4 dC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+Z5 w1596959914
+Z6 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_router_002.sv
+Z7 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_router_002.sv
+L0 84
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1596969957.000000
+Z10 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_router_002.sv|
+Z11 !s90 -reportprogress|300|-sv|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_mm_interconnect_0_router_002.sv|-L|altera_common_sv_packages|-work|router_002|
+!i113 1
+Z12 o-sv -L altera_common_sv_packages -work router_002
+Z13 tCvgOpt 0
+n@nios2_accelerator_mm_interconnect_0_router_002
+vNios2_accelerator_mm_interconnect_0_router_002_default_decode
+R0
+R1
+!i10b 1
+!s100 74Jfmg7E?1k7LVm4V;3G20
+IB?Y>IIKB<ao>?U=ZjCdgZ0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 45
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@nios2_accelerator_mm_interconnect_0_router_002_default_decode

@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/juanp/Desktop/Arqui2/Proyecto3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+valtera_reset_controller
+!s110 1596969963
+!i10b 1
+!s100 z[H_hRO9gO=:^2E3_jWH03
+IK_XiOYdJB:N<UP4A1hbCK1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+Z2 w1596959911
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_controller.v
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_controller.v
+L0 42
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1596969963.000000
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_controller.v|-work|rst_controller|
+!i113 1
+Z4 o-work rst_controller
+Z5 tCvgOpt 0
+valtera_reset_synchronizer
+!s110 1596969964
+!i10b 1
+!s100 oWLYmSO[EOX[G0PgQhZ2=0
+I5@3a0MM@0Wm<BM;>h^YGA3
+R0
+R1
+R2
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_synchronizer.v
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_synchronizer.v
+L0 24
+R3
+r1
+!s85 0
+31
+!s108 1596969964.000000
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/altera_reset_synchronizer.v|-work|rst_controller|
+!i113 1
+R4
+R5

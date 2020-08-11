@@ -1,0 +1,560 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/juanp/Desktop/Arqui2/Proyecto3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+vNios2_accelerator_NIOS_II_cpu
+Z0 !s110 1596969958
+!i10b 1
+!s100 8z76DAiBfd>8R6OUfE?252
+I]T1jC[<Wg9D:lQ9Q@lYEJ3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+Z3 w1596959914
+Z4 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v
+Z5 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v
+L0 2834
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1596969958.000000
+Z8 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v|
+Z9 !s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu.v|-work|cpu|
+!i113 1
+Z10 o-work cpu
+Z11 tCvgOpt 0
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu
+vNios2_accelerator_NIOS_II_cpu_debug_slave_sysclk
+Z12 !s110 1596969959
+!i10b 1
+!s100 n_5<Baj^P8HNY<io=zVmU0
+I=Y56a9[@bKfcId>;`H[]20
+R1
+R2
+R3
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk.v
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk.v
+Z13 L0 21
+R6
+r1
+!s85 0
+31
+Z14 !s108 1596969959.000000
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_sysclk.v|-work|cpu|
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_debug_slave_sysclk
+vNios2_accelerator_NIOS_II_cpu_debug_slave_tck
+R12
+!i10b 1
+!s100 l6?oVBS4Rb79^GjmjB5S[3
+IT?4PBRbg4KLOJi3b`h<?23
+R1
+R2
+R3
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_tck.v
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_tck.v
+R13
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_tck.v|-work|cpu|
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_debug_slave_tck
+vNios2_accelerator_NIOS_II_cpu_debug_slave_wrapper
+R12
+!i10b 1
+!s100 n3[TT1jhj_Yc>Te9aOOzW0
+I8DL?W^CJ]YOoVdb>c>eEE1
+R1
+R2
+R3
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper.v
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper.v
+R13
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_debug_slave_wrapper.v|-work|cpu|
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_debug_slave_wrapper
+vNios2_accelerator_NIOS_II_cpu_nios2_avalon_reg
+R0
+!i10b 1
+!s100 ?=WfdZcbGVX:dmQe=V6ZA1
+I?9S3bmKWK<n9`@H@@k8om3
+R1
+R2
+R3
+R4
+R5
+L0 2023
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_avalon_reg
+vNios2_accelerator_NIOS_II_cpu_nios2_oci
+R0
+!i10b 1
+!s100 bz7T3EACnD9Gf:OiNzbW`0
+IUUofQZ:76F?3RhAkW5[=X3
+R1
+R2
+R3
+R4
+R5
+L0 2362
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_break
+R0
+!i10b 1
+!s100 aMVP?625bg<UWa`dCMg5<3
+IdZnL3SVYPTzmbU`Hz0gnX1
+R1
+R2
+R3
+R4
+R5
+L0 295
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_break
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_compute_input_tm_cnt
+R0
+!i10b 1
+!s100 B5oiC2ZO:PA37S5oPo`HL1
+I=G8<5LfOE=:b1;6BGh:mI0
+R1
+R2
+R3
+R4
+R5
+L0 1265
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_compute_input_tm_cnt
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_dbrk
+R0
+!i10b 1
+!s100 Y5fJS`[c??U`1XDO@18522
+I7ncjZbMY43?5bgaM?fEfU1
+R1
+R2
+R3
+R4
+R5
+L0 795
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_dbrk
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_debug
+R0
+!i10b 1
+!s100 gkzV0A`NDbS3ZhTidGK5A3
+Ij59KAKbch?h=TniPbCmBM1
+R1
+R2
+R3
+R4
+R5
+L0 153
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_debug
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_dtrace
+R0
+!i10b 1
+!s100 f^LTW1d33J[KPcR3@OZf40
+I?`JFZiVL3MWJRn>G^bHDX2
+R1
+R2
+R3
+R4
+R5
+L0 1183
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_dtrace
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_fifo
+R0
+!i10b 1
+!s100 @f`EYCzfAXc0nizoo:mI:0
+IVbRajB85i]3RPZHbg_RVn1
+R1
+R2
+R3
+R4
+R5
+L0 1427
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_fifo
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_fifo_cnt_inc
+R0
+!i10b 1
+!s100 J^g>1X7NQ2mkQg_7aa8V;2
+I9W9Rk@AC1>d9_;4k0LFYg2
+R1
+R2
+R3
+R4
+R5
+L0 1380
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_fifo_cnt_inc
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_fifo_wrptr_inc
+R0
+!i10b 1
+!s100 iBo5SBoDNZ3T;bLHLECe11
+Iz253i]FC_WcDJF>N4Fj>11
+R1
+R2
+R3
+R4
+R5
+L0 1337
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_fifo_wrptr_inc
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_im
+R0
+!i10b 1
+!s100 0zWfY0SWX08RN?igXJZRL1
+I``gbW;S@6_BMN7dR4HkOe2
+R1
+R2
+R3
+R4
+R5
+L0 1936
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_im
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_itrace
+R0
+!i10b 1
+!s100 6DDDPVDd]H03HMJcU2[@>1
+IE27k9PkE6=Ec<YFnXVUnK0
+R1
+R2
+R3
+R4
+R5
+L0 982
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_itrace
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_pib
+R0
+!i10b 1
+!s100 gdY_1hGgkJKdZNW0gCc<I2
+I]E:ambiz[LoG6MU9@X_D`1
+R1
+R2
+R3
+R4
+R5
+L0 1913
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_pib
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_td_mode
+R0
+!i10b 1
+!s100 zGMHL]=T1IQ6aPli[^Bi?0
+I=2BC2WV71aff5213ah_5E0
+R1
+R2
+R3
+R4
+R5
+L0 1115
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_td_mode
+vNios2_accelerator_NIOS_II_cpu_nios2_oci_xbrk
+R0
+!i10b 1
+!s100 k>HTm8KemZEYb7Z5f798l2
+IhBfAomh47EY60BbXSN6=>0
+R1
+R2
+R3
+R4
+R5
+L0 588
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_oci_xbrk
+vNios2_accelerator_NIOS_II_cpu_nios2_ocimem
+R0
+!i10b 1
+!s100 ]Z[RX0m>_zbmdA8zLEVUa1
+I[RVzX46D_Ga>;LMEIfUB72
+R1
+R2
+R3
+R4
+R5
+L0 2181
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_ocimem
+vNios2_accelerator_NIOS_II_cpu_nios2_performance_monitors
+R0
+!i10b 1
+!s100 O4am1cP=Wk?5jDOU]YgBJ1
+I60C]MJd0WeEmW[R<0mIHa3
+R1
+R2
+R3
+R4
+R5
+L0 2006
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_nios2_performance_monitors
+vNios2_accelerator_NIOS_II_cpu_ociram_sp_ram_module
+R0
+!i10b 1
+!s100 e`ZfmbYYZz3ejkZcfH0H;2
+Ili`O@kK>@Kj`U1mHbc^oM3
+R1
+R2
+R3
+R4
+R5
+L0 2116
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_ociram_sp_ram_module
+vNios2_accelerator_NIOS_II_cpu_register_bank_a_module
+R0
+!i10b 1
+!s100 8He_znDIKYP9=zkmGT_jh1
+I;CIIGSSz?Oa:YMm]i5L0_2
+R1
+R2
+R3
+R4
+R5
+R13
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_register_bank_a_module
+vNios2_accelerator_NIOS_II_cpu_register_bank_b_module
+R0
+!i10b 1
+!s100 c<Rn>CjJnBHF@[gADE3]g0
+In@:Ve6?d_@aB?LoM3fXSn3
+R1
+R2
+R3
+R4
+R5
+L0 87
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_register_bank_b_module
+vNios2_accelerator_NIOS_II_cpu_test_bench
+R12
+!i10b 1
+!s100 n><c`kSkM>@]aP>fK:hQl0
+IjINXN?X25UPBYoTV97S343
+R1
+R2
+R3
+8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_test_bench.v
+FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_test_bench.v
+R13
+R6
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_test_bench.v|
+!s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/Nios2_accelerator_NIOS_II_cpu_test_bench.v|-work|cpu|
+!i113 1
+R10
+R11
+n@nios2_accelerator_@n@i@o@s_@i@i_cpu_test_bench

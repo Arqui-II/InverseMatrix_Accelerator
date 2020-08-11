@@ -1,0 +1,241 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/juanp/Desktop/Arqui2/Proyecto3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+Efpabs
+Z0 w1596959911
+Z1 DPx3 lpm 14 lpm_components 0 22 dA^eBPcS7S]05dBK8Z<md1
+Z2 DPx9 altera_mf 20 altera_mf_components 0 22 7RjT1Xb9^`L[coRHZN<9k2
+Z3 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/software/Nios2_accelerator/obj/default/runtime/sim/mentor
+Z8 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPAbs.vhd
+Z9 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPAbs.vhd
+l0
+L26
+VP=Oe?0=o?bMCC^H_55`8o2
+!s100 MQNJz9T14WWPLfWCnWDWK2
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1596969963
+!i10b 1
+Z12 !s108 1596969963.000000
+Z13 !s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPAbs.vhd|-work|fpci_combi|
+Z14 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPAbs.vhd|
+!i113 1
+Z15 o-work fpci_combi
+Z16 tExplicit 1 CvgOpt 0
+Anormal
+R1
+R2
+R3
+R4
+R5
+R6
+Z17 DEx4 work 5 fpabs 0 22 P=Oe?0=o?bMCC^H_55`8o2
+l35
+L34
+Z18 ViEaGJ<L^MUT?a`A2IPAb01
+Z19 !s100 JD7Pa:ag>^W:JmUMSY39f1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Efpcomparefused
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z20 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPCompareFused/FPCompareFused.vhd
+Z21 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPCompareFused/FPCompareFused.vhd
+l0
+L47
+V?dWGMo6PSGIek4j7UnRH:1
+!s100 FdHiM:LEa=ED6JQcWBnh40
+R10
+32
+R11
+!i10b 1
+R12
+Z22 !s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPCompareFused/FPCompareFused.vhd|-work|fpci_combi|
+Z23 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPCompareFused/FPCompareFused.vhd|
+!i113 1
+R15
+R16
+Anormal
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 14 fpcomparefused 0 22 ?dWGMo6PSGIek4j7UnRH:1
+l212
+L56
+V^3Dc=Z<gPn5hZZAN3?l8g3
+!s100 3O<EJm4lhjVoMC<YJ3GG52
+R10
+32
+R11
+!i10b 1
+R12
+R22
+R23
+!i113 1
+R15
+R16
+Efpminmaxfused
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z24 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPMinMaxFused/FPMinMaxFused.vhd
+Z25 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPMinMaxFused/FPMinMaxFused.vhd
+l0
+L48
+V[i0:`CHOHmZ<NPGJACggS3
+!s100 a_?=Tin8Db;daP=>>zkKI0
+R10
+32
+R11
+!i10b 1
+R12
+Z26 !s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPMinMaxFused/FPMinMaxFused.vhd|-work|fpci_combi|
+Z27 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPMinMaxFused/FPMinMaxFused.vhd|
+!i113 1
+R15
+R16
+Anormal
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 13 fpminmaxfused 0 22 [i0:`CHOHmZ<NPGJACggS3
+l158
+L57
+V=ckPLgi_mXS_JA941c8P?3
+!s100 4CkYY4EEIhHjHV@THkRnE1
+R10
+32
+R11
+!i10b 1
+R12
+R26
+R27
+!i113 1
+R15
+R16
+Efpneg
+R0
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+Z28 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPNeg.vhd
+Z29 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPNeg.vhd
+l0
+L26
+V>f?2iJb5bhfKJfXmfLdKU2
+!s100 ^Z=APD^6H0fVUMb@DPmXf0
+R10
+32
+R11
+!i10b 1
+R12
+Z30 !s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPNeg.vhd|-work|fpci_combi|
+Z31 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/FPNeg_Abs/FPNeg.vhd|
+!i113 1
+R15
+R16
+Anormal
+R1
+R2
+R3
+R4
+R5
+R6
+DEx4 work 5 fpneg 0 22 >f?2iJb5bhfKJfXmfLdKU2
+l35
+L34
+VWF]>AKgK?W?c0GE?IVPXP3
+!s100 =K;;ij[X7C1PJDGX?TKAn3
+R10
+32
+R11
+!i10b 1
+R12
+R30
+R31
+!i113 1
+R15
+R16
+Efpoint2_combi
+R0
+R3
+R4
+R5
+R6
+R7
+Z32 8C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_combi.vhd
+Z33 FC:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_combi.vhd
+l0
+L20
+Ve]kH`gK0C@J@;6SHl1aAg2
+!s100 L7S]l3:HPGH]CT^8?<SRd1
+R10
+32
+R11
+!i10b 1
+Z34 !s108 1596969962.000000
+Z35 !s90 -reportprogress|300|C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_combi.vhd|-work|fpci_combi|
+Z36 !s107 C:/Users/juanp/Desktop/Arqui2/Proyecto_3/Nios2_accelerator/Nios2_accelerator/testbench/Nios2_accelerator_tb/simulation/submodules/fpoint2_combi.vhd|
+!i113 1
+R15
+R16
+Afpcombi
+R3
+R4
+R5
+R6
+DEx4 work 13 fpoint2_combi 0 22 e]kH`gK0C@J@;6SHl1aAg2
+l72
+L33
+Vdmd_3;@TVoQj8J;L>B>Z01
+!s100 5F1N5nA`k5b;E9bf5`V0R1
+R10
+32
+R11
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R15
+R16
